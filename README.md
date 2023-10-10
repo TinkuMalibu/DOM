@@ -1,1 +1,1 @@
-Learning how to manipulete the DOM # DOM
+Learning how to manipulate the DOM # DOM

@@ -1,4 +1,17 @@
-h1 {
-  color:rgb(255, 85, 0);
-  font-size: 50px;
+/* Estilos generales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: url(/images/pizza_cute.jpg) no-repeat center/cover;
 }

@@ -69,6 +69,40 @@ console.log('con firtsElementChild: ')
 console.log(toppingListOfIngredientes.firstElementChild);
 console.log('con children: ')
 console.log(toppingListOfIngredientes.children[0]);
+console.log('con lastElementChild: ')
+console.log(toppingListOfIngredientes.lastElementChild);
+
+// With previousSibling and nextElementSibling
+console.log('con previousSibling: ')
+console.log(toppingListOfIngredientes.previousElementSibling);
+console.log('con nextElementSibling: ')
+console.log(toppingListOfIngredientes.nextElementSibling);
+
+// DOM events
+/*
+1. locate the element by class or id
+2. create a function to run when the event happens
+3. iterate over the element to add the event listener *for const ... of*
+3. addEventListener
+
+*/
+
+const theToppings = document.getElementsByClassName('topping');
+
+
+/* const showClick = (e) => {
+  console.log(e.target.innerText);
+}
+*/
+
+for (const topping of theToppings) {
+  topping.addEventListener('click', (e) => {
+  console.log(e.target.innerText);
+});
+}
+
+
+
 
 
 
